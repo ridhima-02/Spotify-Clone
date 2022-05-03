@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+    font-family:'Ubuntu', sans-serif ;
+}
+nav{
+    position: sticky;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.logo img{
+    height: 60px;
+    
+}
+nav li{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: end;
+    width: 70%;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 15px;
+    background: url('musician-g68fff475d_1920.jpg') no-repeat center center/cover ;
+}
+.songlistContainer{
+    margin-top: 25px;
+}
+.songlist{
+    margin: 10px 40px;
+    width: 50%;
+}
+.songItem{
+    display: flex;
+    height: 30px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 8px; */
+    /* width: 80%; */
+    background-color: white;
+    color: black;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 33px;
+    margin: 1px 13px;
+    /* border-radius: 38px; */
+}
+.songlistPlay{
+    margin: 0 12px;
+}
+.timestamp{
+    margin: 0 4px;
+}
+.songlistPlay i:hover{
+    cursor: pointer;
+}
+.bottom{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    height: 85px;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    margin: 10px;
+}
+.icons i{
+    margin: 0px 2px;
+    margin-bottom: 14px;
+}
+.icons i:hover{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    margin-top: 25px;
+    cursor: pointer;
+}
